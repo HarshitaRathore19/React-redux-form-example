@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+<h1>Hello reactjs</h1>
+</div>
+
+<style type="text/css">
+	div{
+		border-style: solid;
+		border-color: grey;
+		border: solid;
+		ali
+	}
+</style>
+</body>
+</html>
+
+
+<p style={{color: "red"}}>{this.state.emailerr}</p>
+
+<input
+  type="text"
+  className="form-control mb-3"
+  id="whatweoffer"
+  name="whatweoffer"
+  value={this.state.whatweoffer}
+  onChange={this.handleChange}
+  placeholder="what we offer"
+  required
+/>;
+But it should have a different name attribute and the value must be used to set the state
+
+handleChange = e => {
+  this.setState({ [e.target.name]: e.target.value });
+};
+

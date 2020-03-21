@@ -1,0 +1,7 @@
+.container{
+	  height : "350px";
+      width : "350px";
+      padding : "50px";
+      border-style: solid;
+      border-color: grey;
+    }
